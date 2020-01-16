@@ -1,0 +1,477 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 17,
+        "name": "Free CRM Create a new contact scenario",
+        "description": "",
+        "id": "free-crm-create-contacts;free-crm-create-a-new-contact-scenario;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 19356127500,
+              "status": "passed"
+            },
+            "comments": [
+              {
+                "line": 5,
+                "value": "#With example keyword ----"
+              }
+            ],
+            "line": 6,
+            "name": "User is already present on login page",
+            "match": {
+              "location": "LoginStepDefinition.User_alread_on_Login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 12258800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "title of login page is Free CRM",
+            "match": {
+              "location": "LoginStepDefinition.Title_check_on_LoginPage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 336468400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user enters \"eckpraveen@gmail.com\" and \"Pdv@1992\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "eckpraveen@gmail.com",
+                  "offset": 13
+                },
+                {
+                  "val": "Pdv@1992",
+                  "offset": 40
+                }
+              ],
+              "location": "LoginStepDefinition.Enter_UN_and_PWD(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5094309400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user clicks on Login button",
+            "match": {
+              "location": "LoginStepDefinition.Click_on_Login()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 9253800,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user is on Homepage",
+            "match": {
+              "location": "LoginStepDefinition.User_is_on_homePage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4364171600,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user click on Contacts and Create new contacts",
+            "match": {
+              "location": "LoginStepDefinition.Move_on_create_contact()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 19026347200,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user enter \"Akash\" and \"Kumar\" and \"Incedo\" and \"Akash.k@incedoinc.com\" and \"Gurgaon\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Akash",
+                  "offset": 12
+                },
+                {
+                  "val": "Kumar",
+                  "offset": 24
+                },
+                {
+                  "val": "Incedo",
+                  "offset": 36
+                },
+                {
+                  "val": "Akash.k@incedoinc.com",
+                  "offset": 49
+                },
+                {
+                  "val": "Gurgaon",
+                  "offset": 77
+                }
+              ],
+              "location": "LoginStepDefinition.Enter_User_deatils(String,String,String,String,String)"
+            },
+            "matchedColumns": [
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 428798000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user close the browser",
+            "match": {
+              "location": "LoginStepDefinition.TearDown()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 18,
+        "name": "Free CRM Create a new contact scenario",
+        "description": "",
+        "id": "free-crm-create-contacts;free-crm-create-a-new-contact-scenario;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 18895027000,
+              "status": "passed"
+            },
+            "comments": [
+              {
+                "line": 5,
+                "value": "#With example keyword ----"
+              }
+            ],
+            "line": 6,
+            "name": "User is already present on login page",
+            "match": {
+              "location": "LoginStepDefinition.User_alread_on_Login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 8511300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "title of login page is Free CRM",
+            "match": {
+              "location": "LoginStepDefinition.Title_check_on_LoginPage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 387127900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user enters \"eckpraveen@gmail.com\" and \"Pdv@1992\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "eckpraveen@gmail.com",
+                  "offset": 13
+                },
+                {
+                  "val": "Pdv@1992",
+                  "offset": 40
+                }
+              ],
+              "location": "LoginStepDefinition.Enter_UN_and_PWD(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5137210400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user clicks on Login button",
+            "match": {
+              "location": "LoginStepDefinition.Click_on_Login()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 10356500,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user is on Homepage",
+            "match": {
+              "location": "LoginStepDefinition.User_is_on_homePage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5180671900,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user click on Contacts and Create new contacts",
+            "match": {
+              "location": "LoginStepDefinition.Move_on_create_contact()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 19095706600,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user enter \"Gaurav\" and \"Khatri\" and \"Indigo\" and \"gaurav.k@incedoinc.com\" and \"Noida\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Gaurav",
+                  "offset": 12
+                },
+                {
+                  "val": "Khatri",
+                  "offset": 25
+                },
+                {
+                  "val": "Indigo",
+                  "offset": 38
+                },
+                {
+                  "val": "gaurav.k@incedoinc.com",
+                  "offset": 51
+                },
+                {
+                  "val": "Noida",
+                  "offset": 80
+                }
+              ],
+              "location": "LoginStepDefinition.Enter_User_deatils(String,String,String,String,String)"
+            },
+            "matchedColumns": [
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 332000700,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user close the browser",
+            "match": {
+              "location": "LoginStepDefinition.TearDown()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 19,
+        "name": "Free CRM Create a new contact scenario",
+        "description": "",
+        "id": "free-crm-create-contacts;free-crm-create-a-new-contact-scenario;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 22684977300,
+              "status": "passed"
+            },
+            "comments": [
+              {
+                "line": 5,
+                "value": "#With example keyword ----"
+              }
+            ],
+            "line": 6,
+            "name": "User is already present on login page",
+            "match": {
+              "location": "LoginStepDefinition.User_alread_on_Login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 14315300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "title of login page is Free CRM",
+            "match": {
+              "location": "LoginStepDefinition.Title_check_on_LoginPage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 517462100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user enters \"eckpraveen@gmail.com\" and \"Pdv@1992\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "eckpraveen@gmail.com",
+                  "offset": 13
+                },
+                {
+                  "val": "Pdv@1992",
+                  "offset": 40
+                }
+              ],
+              "location": "LoginStepDefinition.Enter_UN_and_PWD(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5078854600,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user clicks on Login button",
+            "match": {
+              "location": "LoginStepDefinition.Click_on_Login()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 12072100,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user is on Homepage",
+            "match": {
+              "location": "LoginStepDefinition.User_is_on_homePage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5174111800,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user click on Contacts and Create new contacts",
+            "match": {
+              "location": "LoginStepDefinition.Move_on_create_contact()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 19045056800,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user enter \"Dave\" and \"Rishi\" and \"Incedo\" and \"dr1@incedoinc.com\" and \"Delhi\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Dave",
+                  "offset": 12
+                },
+                {
+                  "val": "Rishi",
+                  "offset": 23
+                },
+                {
+                  "val": "Incedo",
+                  "offset": 35
+                },
+                {
+                  "val": "dr1@incedoinc.com",
+                  "offset": 48
+                },
+                {
+                  "val": "Delhi",
+                  "offset": 72
+                }
+              ],
+              "location": "LoginStepDefinition.Enter_User_deatils(String,String,String,String,String)"
+            },
+            "matchedColumns": [
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 346427400,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user close the browser",
+            "match": {
+              "location": "LoginStepDefinition.TearDown()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Free CRM Create contacts",
+    "description": "",
+    "id": "free-crm-create-contacts",
+    "keyword": "Feature",
+    "uri": "C:/Users/praveen.das/eclipse-workspace/FreeCrmBddFramework/src/main/java/Features/CreateContact.feature"
+  }
+]
