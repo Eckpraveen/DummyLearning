@@ -1,35 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="3" time="150.547624">
-<testcase classname="Free CRM Create contacts" name="Free CRM Create a new contact scenario" time="48.627735">
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="47.809612">
+<testcase classname="Deal_data creation" name="FreeCRM create a new Deal scenario" time="47.809612">
 <system-out><![CDATA[Given User is already present on login page.................................passed
 When title of login page is Free CRM........................................passed
-Then user enters "eckpraveen@gmail.com" and "Pdv@1992"......................passed
+Then user enters username and password......................................passed
 Then user clicks on Login button............................................passed
 And user is on Homepage.....................................................passed
-Then user click on Contacts and Create new contacts.........................passed
-Then user enter "Akash" and "Kumar" and "Incedo" and "Akash.k@incedoinc.com" and "Gurgaon".passed
-Then user close the browser.................................................passed
-]]></system-out>
-</testcase>
-<testcase classname="Free CRM Create contacts" name="Free CRM Create a new contact scenario 2" time="49.046612">
-<system-out><![CDATA[Given User is already present on login page.................................passed
-When title of login page is Free CRM........................................passed
-Then user enters "eckpraveen@gmail.com" and "Pdv@1992"......................passed
-Then user clicks on Login button............................................passed
-And user is on Homepage.....................................................passed
-Then user click on Contacts and Create new contacts.........................passed
-Then user enter "Gaurav" and "Khatri" and "Indigo" and "gaurav.k@incedoinc.com" and "Noida".passed
-Then user close the browser.................................................passed
-]]></system-out>
-</testcase>
-<testcase classname="Free CRM Create contacts" name="Free CRM Create a new contact scenario 3" time="52.873277">
-<system-out><![CDATA[Given User is already present on login page.................................passed
-When title of login page is Free CRM........................................passed
-Then user enters "eckpraveen@gmail.com" and "Pdv@1992"......................passed
-Then user clicks on Login button............................................passed
-And user is on Homepage.....................................................passed
-Then user click on Contacts and Create new contacts.........................passed
-Then user enter "Dave" and "Rishi" and "Incedo" and "dr1@incedoinc.com" and "Delhi".passed
+Then user moves to new deal page............................................passed
+Then user enters deal details- Title and Company and Probability and Amount and Commission and Stage.passed
 Then user close the browser.................................................passed
 ]]></system-out>
 </testcase>
