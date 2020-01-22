@@ -3,138 +3,394 @@
     "line": 1,
     "elements": [
       {
-        "line": 3,
-        "name": "FreeCRM create a new Deal scenario",
+        "before": [
+          {
+            "result": {
+              "duration": 173600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TaggedHooks_StepDefinition.Launch()"
+            }
+          },
+          {
+            "result": {
+              "duration": 74300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TaggedHooks_StepDefinition.OpenUrl()"
+            }
+          },
+          {
+            "result": {
+              "duration": 52700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TaggedHooks_StepDefinition.Login()"
+            }
+          },
+          {
+            "result": {
+              "duration": 40500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TaggedHooks_StepDefinition.beforeFirst()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "This is first test.",
         "description": "",
-        "id": "deal-data-creation;freecrm-create-a-new-deal-scenario",
+        "id": "test-tagged-hooks;this-is-first-test.",
+        "after": [
+          {
+            "result": {
+              "duration": 109400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TaggedHooks_StepDefinition.afterFirst()"
+            }
+          },
+          {
+            "result": {
+              "duration": 84100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TaggedHooks_StepDefinition.tearDown1()"
+            }
+          },
+          {
+            "result": {
+              "duration": 62900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TaggedHooks_StepDefinition.tearDown2()"
+            }
+          },
+          {
+            "result": {
+              "duration": 61600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TaggedHooks_StepDefinition.tearDown3()"
+            }
+          }
+        ],
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 23029888300,
+              "duration": 78948300,
               "status": "passed"
             },
             "line": 5,
-            "name": "User is already present on login page",
+            "name": "this is the first step",
             "match": {
-              "location": "Deal_StepDefinition.User_alread_on_Login_page()"
+              "location": "TaggedHooks_StepDefinition.this_is_the_first_step()"
             },
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 17225200,
+              "duration": 67800,
               "status": "passed"
             },
             "line": 6,
-            "name": "title of login page is Free CRM",
+            "name": "this is the second step",
             "match": {
-              "location": "Deal_StepDefinition.Title_check_on_LoginPage()"
+              "location": "TaggedHooks_StepDefinition.this_is_the_second_step()"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 361010000,
+              "duration": 65600,
               "status": "passed"
             },
             "line": 7,
-            "name": "user enters username and password",
+            "name": "this is the third step",
             "match": {
-              "location": "Deal_StepDefinition.Enter_UN_and_PWD(DataTable)"
-            },
-            "rows": [
-              {
-                "cells": [
-                  "eckpraveen@gmail.com",
-                  "Pdv@1992"
-                ],
-                "line": 8
-              }
-            ],
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 5085626900,
-              "status": "passed"
-            },
-            "line": 9,
-            "name": "user clicks on Login button",
-            "match": {
-              "location": "Deal_StepDefinition.Click_on_Login()"
+              "location": "TaggedHooks_StepDefinition.this_is_the_third_step()"
             },
             "keyword": "Then "
-          },
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@First"
+          }
+        ]
+      },
+      {
+        "before": [
           {
             "result": {
-              "duration": 11166400,
+              "duration": 77200,
               "status": "passed"
             },
-            "line": 10,
-            "name": "user is on Homepage",
             "match": {
-              "location": "Deal_StepDefinition.User_is_on_homePage()"
-            },
-            "keyword": "And "
+              "location": "TaggedHooks_StepDefinition.Launch()"
+            }
           },
           {
             "result": {
-              "duration": 13272614800,
+              "duration": 55700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TaggedHooks_StepDefinition.OpenUrl()"
+            }
+          },
+          {
+            "result": {
+              "duration": 47100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TaggedHooks_StepDefinition.Login()"
+            }
+          },
+          {
+            "result": {
+              "duration": 70500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TaggedHooks_StepDefinition.beforeSecond()"
+            }
+          }
+        ],
+        "line": 10,
+        "name": "This is second test.",
+        "description": "",
+        "id": "test-tagged-hooks;this-is-second-test.",
+        "after": [
+          {
+            "result": {
+              "duration": 50900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TaggedHooks_StepDefinition.afterSecond()"
+            }
+          },
+          {
+            "result": {
+              "duration": 33700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TaggedHooks_StepDefinition.tearDown1()"
+            }
+          },
+          {
+            "result": {
+              "duration": 31300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TaggedHooks_StepDefinition.tearDown2()"
+            }
+          },
+          {
+            "result": {
+              "duration": 29400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TaggedHooks_StepDefinition.tearDown3()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 75100,
               "status": "passed"
             },
             "line": 11,
-            "name": "user moves to new deal page",
+            "name": "this is the first step",
             "match": {
-              "location": "Deal_StepDefinition.Move_on_New_DealPage()"
+              "location": "TaggedHooks_StepDefinition.this_is_the_first_step()"
             },
-            "keyword": "Then "
+            "keyword": "Given "
           },
           {
             "result": {
-              "duration": 5865532200,
+              "duration": 44600,
               "status": "passed"
             },
             "line": 12,
-            "name": "user enters deal details- Title and Company and Probability and Amount and Commission and Stage",
+            "name": "this is the second step",
             "match": {
-              "location": "Deal_StepDefinition.User_enters_deal_deatils(DataTable)"
+              "location": "TaggedHooks_StepDefinition.this_is_the_second_step()"
             },
-            "rows": [
-              {
-                "cells": [
-                  "PNB",
-                  "Incop",
-                  "5",
-                  "60000",
-                  "10.1",
-                  "Prospect"
-                ],
-                "line": 13
-              }
-            ],
-            "keyword": "Then "
+            "keyword": "When "
           },
           {
             "result": {
-              "duration": 166548500,
+              "duration": 40100,
               "status": "passed"
             },
-            "line": 14,
-            "name": "user close the browser",
+            "line": 13,
+            "name": "this is the third step",
             "match": {
-              "location": "Deal_StepDefinition.TearDown()"
+              "location": "TaggedHooks_StepDefinition.this_is_the_third_step()"
             },
             "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 9,
+            "name": "@Second"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 67400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TaggedHooks_StepDefinition.Launch()"
+            }
+          },
+          {
+            "result": {
+              "duration": 53600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TaggedHooks_StepDefinition.OpenUrl()"
+            }
+          },
+          {
+            "result": {
+              "duration": 47900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TaggedHooks_StepDefinition.Login()"
+            }
+          },
+          {
+            "result": {
+              "duration": 52800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TaggedHooks_StepDefinition.beforeThird()"
+            }
+          }
+        ],
+        "line": 16,
+        "name": "This is third test.",
+        "description": "",
+        "id": "test-tagged-hooks;this-is-third-test.",
+        "after": [
+          {
+            "result": {
+              "duration": 81700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TaggedHooks_StepDefinition.afterThird()"
+            }
+          },
+          {
+            "result": {
+              "duration": 57100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TaggedHooks_StepDefinition.tearDown1()"
+            }
+          },
+          {
+            "result": {
+              "duration": 52900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TaggedHooks_StepDefinition.tearDown2()"
+            }
+          },
+          {
+            "result": {
+              "duration": 42900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TaggedHooks_StepDefinition.tearDown3()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 193600,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "this is the first step",
+            "match": {
+              "location": "TaggedHooks_StepDefinition.this_is_the_first_step()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 58700,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "this is the second step",
+            "match": {
+              "location": "TaggedHooks_StepDefinition.this_is_the_second_step()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 49400,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "this is the third step",
+            "match": {
+              "location": "TaggedHooks_StepDefinition.this_is_the_third_step()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 15,
+            "name": "@Third"
           }
         ]
       }
     ],
-    "name": "Deal_data creation",
+    "name": "Test Tagged Hooks",
     "description": "",
-    "id": "deal-data-creation",
+    "id": "test-tagged-hooks",
     "keyword": "Feature",
-    "uri": "C:/Users/praveen.das/eclipse-workspace/FreeCrmBddFramework/src/main/java/Features/Deals.feature"
+    "uri": "C:/Users/praveen.das/eclipse-workspace/FreeCrmBddFramework/src/main/java/Features/TaggedHooks.feature"
   }
 ]
